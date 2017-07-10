@@ -1,0 +1,14 @@
+
+# Vacancy menu items definition
+entity.vacancy.collection:
+  title: 'Vacancy list'
+  route_name: entity.vacancy.collection
+  description: 'List Vacancy entities'
+  parent: system.admin_structure
+  weight: 100
+
+vacancy.admin.structure.settings:
+  title: Vacancy settings
+  description: 'Configure Vacancy entities'
+  route_name: vacancy.settings
+  parent: system.admin_structure

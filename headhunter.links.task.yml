@@ -1,0 +1,22 @@
+# Vacancy routing definition
+vacancy.settings_tab:
+  route_name: vacancy.settings
+  title: 'Settings'
+  base_route: vacancy.settings
+
+entity.vacancy.canonical:
+  route_name: entity.vacancy.canonical
+  base_route: entity.vacancy.canonical
+  title: 'View'
+
+entity.vacancy.edit_form:
+  route_name: entity.vacancy.edit_form
+  base_route: entity.vacancy.canonical
+  title: 'Edit'
+
+entity.vacancy.delete_form:
+  route_name:  entity.vacancy.delete_form
+  base_route:  entity.vacancy.canonical
+  title: Delete
+  weight: 10
+

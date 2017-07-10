@@ -1,0 +1,22 @@
+{#
+/**
+ * @file vacancy.html.twig
+ * Default theme implementation to present Vacancy data.
+ *
+ * This template is used when viewing Vacancy pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_vacancy()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('vacancy') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

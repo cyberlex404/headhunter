@@ -1,0 +1,5 @@
+entity.vacancy.add_form:
+  route_name: entity.vacancy.add_form
+  title: 'Add Vacancy'
+  appears_on:
+    - entity.vacancy.collection

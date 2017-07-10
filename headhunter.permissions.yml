@@ -1,0 +1,22 @@
+add vacancy entities:
+  title: 'Create new Vacancy entities'
+
+administer vacancy entities:
+  title: 'Administer Vacancy entities'
+  description: 'Allow to access the administration form to configure Vacancy entities.'
+  restrict access: true
+
+delete vacancy entities:
+  title: 'Delete Vacancy entities'
+
+edit vacancy entities:
+  title: 'Edit Vacancy entities'
+
+access vacancy overview:
+  title: 'Access the Vacancy overview page'
+
+view published vacancy entities:
+  title: 'View published Vacancy entities'
+
+view unpublished vacancy entities:
+  title: 'View unpublished Vacancy entities'
